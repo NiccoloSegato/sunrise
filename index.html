@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Today's</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+    <link rel=StyleSheet href="styles/style.css" type="text/css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+</head>
+
+<body>
+<div class="profile-box">
+    <button type="button" id="authorize_button">
+        <img src="" hspace="0" align="left" alt="Image" style="display: none">
+        Log in
+    </button>
+</div>
+
+<!-- Hour section -->
+<div id="orario">
+    <p id="orario-lbl">--:--:--</p>
+    <p id="giorno-lbl">--</p>
+</div>
+<script src="scripts/time.js"></script>
+<script src="scripts/day_lbl.js"></script>
+
+<!-- Weather section
+<div id="meteo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWiA0YdGbx14X4y1lDNGxpHDEc4T2wAHN6nECADzBPmrFFH1wi" alt="">
+    <p id="temperatura">12°</p>
+</div>-->
+
+<!-- Google Calendar section -->
+<div id="calendar">
+    <h1>Prossimi eventi</h1>
+</div>
+
+
+<!-- Google Tasks section -->
+<div id="tasks">
+    <h1>Promemoria</h1>
+</div>
+<script async def src="scripts/g_services.js"></script>
+</body>
+</html>

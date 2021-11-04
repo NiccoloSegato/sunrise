@@ -1,0 +1,164 @@
+@font-face {
+    font-family: tt-commons;
+    src: url("../assets/font/tt-commons/TT Commons Regular.otf");
+}
+@font-face {
+    font-family: tt-commons;
+    font-weight: bold;
+    src: url('../assets/font/tt-commons/TT Commons Bold.otf');
+}
+
+body{
+    font-family: tt-commons, sans-serif !important;
+}
+
+#orario-lbl {
+    position: absolute;
+    font-size: 160px;
+    font-weight: bold;
+    width: 584px;
+    left: 95px;
+    top: 163px;
+    margin: 0px;
+}
+
+#giorno-lbl {
+    position: absolute;
+    width: 584px;
+    left: 95px;
+    top: 278px;
+    color: #707070;
+    font-size: 45px;
+}
+
+#meteo {
+    position: absolute;
+    box-shadow: 0px 1px 7px rgba(128, 128, 128, 0.637);
+    border-radius: 10px;
+    width: 220px;
+    height: 193px;
+    top: 90px;
+    left: 660px;
+}
+
+#meteo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#temperatura {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#calendar {
+    position: absolute;
+    left: 95px;
+    top: 420px;
+    width: 850px;
+    height: 430px;
+}
+
+.event-div {
+    border-radius: 5px;
+    margin-right: 10px;
+    border-left-color: red;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+.event-name {
+    margin-left: 10px;
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+
+.event-location {
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.event-time {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#tasks {
+    position: absolute;
+    box-shadow: 0px 1px 7px rgba(128, 128, 128, 0.637);
+    border-radius: 10px;
+    width: 330px;
+    height: 465px;
+    top: 150px;
+    right: 20px;
+    padding: 16px;
+}
+
+.task-name {
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+
+.task-due {
+    color: rgb(117, 117, 117);
+    margin-top: 0px;
+    margin-left: 36px;
+}
+
+.shape-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+    float: left;
+    margin-right: 8px;
+}
+
+.profile-box{
+    position: absolute;
+    top:100px;
+    left: 95px;
+}
+
+.profile-box img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.profile-box button{
+    border: 0px;
+    height: 50px;
+    width: 186px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: Transparent;
+    border-radius: 30px;
+    box-shadow: 0px 1px 7px rgba(128, 128, 128, 0.637);
+    vertical-align: middle;
+    background-color: white;
+}
+
+.profile-box p{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+}
